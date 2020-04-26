@@ -21,7 +21,6 @@ pipeline {
                 }
             }
         }
-/*        
         stage('Push Docker Image') {
             when {
                 branch 'master'
@@ -35,6 +34,7 @@ pipeline {
                 }
             }
         }
+/*        
         stage('DeployToProduction') {
             when {
                 branch 'master'
